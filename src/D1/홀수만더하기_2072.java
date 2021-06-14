@@ -15,7 +15,6 @@ public class 홀수만더하기_2072 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		int T = Integer.parseInt(br.readLine());
 		int result;
-
 		for (int t = 1; t <= T; t++) {
 			result = 0;
 			StringTokenizer st = new StringTokenizer(br.readLine());
@@ -23,11 +22,8 @@ public class 홀수만더하기_2072 {
 				int temp = Integer.parseInt(st.nextToken());
 				if (temp % 2 == 1)
 					result += temp;
-
 			}
-
 			bw.append("#" + t + " " + result + "\n");
-
 		}
 		bw.flush();
 		bw.close();
