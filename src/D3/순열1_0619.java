@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 // 2021-06-19
 // SWEA D3 9940
-public class 순열1_0919 {
+public class 순열1_0619 {
 
 	static boolean result;
 	static int input[], N, visited[];
