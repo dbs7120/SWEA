@@ -10,7 +10,6 @@ import java.io.OutputStreamWriter;
 // SWEA D3 1215
 public class 회문1_0623 {
 	static char board[][];
-	static int dy[] = { -1, 1, 0, 0 }, dx[] = { 0, 0, -1, 1 };
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
